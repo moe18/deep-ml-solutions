@@ -18,6 +18,6 @@ def activation(x):
     '''
     # TODO: Implement your activation function
     
-    result = np.maximum(x,0)  # Replace with your activation
+    result = x  # Replace with your activation
     
-    return result
+    return np.maximum(result,0)
